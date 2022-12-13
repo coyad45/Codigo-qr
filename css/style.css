@@ -1,0 +1,47 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: lightblue;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor
+{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px hsla(220, 17%, 73%, 0.644);
+    background-color: white;
+    width: 25%;
+    height: auto;
+    margin: 10%;
+    
+    
+}
+.imagen, .texto
+{
+    text-align: center;
+    
+
+}
+.imagen p img
+{
+    border-radius: 10px;
+    
+}
+.texto
+{
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    
+}
+.texto h4
+{
+    font-weight: 700;
+}
+.colorido
+{
+    color: hsl(220, 15%, 55%);
+}
